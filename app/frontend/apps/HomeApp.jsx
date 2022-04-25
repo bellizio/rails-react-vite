@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, Footer } from '../components';
+import './styles.scss';
 
 const HomeApp = () => {
   return (
