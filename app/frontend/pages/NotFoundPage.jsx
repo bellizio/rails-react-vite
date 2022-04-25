@@ -1,7 +1,7 @@
 import React from 'react';
 
 function NotFoundPage() {
-  return <div>NotFoundPage</div>;
+  return <div>Client Side 404 Page</div>;
 }
 
 export default NotFoundPage;
