@@ -9,6 +9,7 @@
     "prettier": "^2.6.2",
     "sass": "^1.50.1",
     "vite": "^2.9.5",
+    "vite-plugin-full-reload": "^1.0.0",
     "vite-plugin-ruby": "^3.0.9"
   },
   "scripts": {
