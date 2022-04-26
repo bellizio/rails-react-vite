@@ -1,21 +1,28 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { Header, Footer } from '../components';
+import { Header, Footer, Main } from '../components';
 import { AccountSettingsPage } from '../pages';
 import './styles.scss';
 
 const HelpApp = () => {
   return (
     <>
-      <Header title="Help App" />
-      <div>👋 Howdy from the Help App! 🤠</div>
       <Routes>
         <Route
           path="/account-settings"
           element={<AccountSettingsPage />}
         ></Route>
       </Routes>
-      <Link to="/account-settings">Account Settings</Link>
+      <Header title="Help App" />
+      <Main
+        appName="Help"
+        imgData={{
+          src: '../images/boomhauer.jpg',
+          alt: 'boomhauer grinning',
+        }}
+      >
+        <Link to="/account-settings">Account Settings</Link>
+      </Main>
       <Footer />
     </>
   );
