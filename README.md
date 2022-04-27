@@ -4,6 +4,11 @@ A sandbox application for exploring how [Vite](https://vitejs.dev/) can be used 
 
 The app uses the [Vite Ruby](https://vite-ruby.netlify.app/), which acts as the 'glue' between the React view layer and the Rails view layer.
 
+## Getting Started
+
+1. `npm install`
+2. `bundle install`
+
 ## Scripts
 
 Run the following commands to start the app:
