@@ -2,13 +2,13 @@ import React from 'react';
 import { GreetingContainer, GreetingImage, GreetingText } from './styles';
 
 const Greeting = (props) => {
-  const { appName, imgData, children } = props;
+  const { greeting, imgData, children } = props;
   const { src, alt } = imgData;
 
   return (
     <GreetingContainer>
       <GreetingImage src={src} alt={alt} />
-      <GreetingText>👋 Howdy from the {appName} App! 🤠</GreetingText>
+      <GreetingText>{greeting}</GreetingText>
       {children}
     </GreetingContainer>
   );

@@ -7,22 +7,29 @@ import './styles.scss';
 const HelpApp = () => {
   return (
     <>
+      <Header title="Help App" />
       <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Main
+                greeting="This is a rails rendered route."
+                imgData={{
+                  src: '../images/boomhauer.jpg',
+                  alt: 'boomhauer grinning',
+                }}
+              >
+                <Link to="/account-settings">Account Settings</Link>
+              </Main>
+            </>
+          }
+        ></Route>
         <Route
           path="/account-settings"
           element={<AccountSettingsPage />}
         ></Route>
       </Routes>
-      <Header title="Help App" />
-      <Main
-        appName="Help"
-        imgData={{
-          src: '../images/boomhauer.jpg',
-          alt: 'boomhauer grinning',
-        }}
-      >
-        <Link to="/account-settings">Account Settings</Link>
-      </Main>
       <Footer />
     </>
   );

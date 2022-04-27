@@ -11,16 +11,14 @@ const HomeApp = () => {
       .then((data) => setCharacters(data));
   }, []);
 
-  console.log(characters);
-
   return (
     <>
       <Header title="Home App" />
       <Main
-        appName="Home"
+        greeting="This is a rails rendered route."
         imgData={{ src: '../images/hank.jpg', alt: 'hank hill' }}
       >
-        <h2>Cast</h2>
+        <h2>Cast Fetched from api/v1/characters</h2>
         <ul>
           {characters.map((character, index) => (
             <li key={`${character.name}#${index}`}>{character.name}</li>

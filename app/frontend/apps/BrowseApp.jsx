@@ -7,7 +7,7 @@ const BrowseApp = () => {
     <>
       <Header title="Browse App" />
       <Main
-        appName="Browse"
+        greeting="This is a rails rendered route."
         imgData={{
           src: '../images/bobby.gif',
           alt: 'bobby hill dancing in pajamas',
