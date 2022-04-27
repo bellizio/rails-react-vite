@@ -1,1 +1,11 @@
-Article.create([{ title: 'Test title 1', body: 'Test body 1' }, { title: 'Test title 2', body: 'Test body 2' }])
+Character.create([
+  { name: 'Hank Hill' },
+  { name: 'Peggy Hill' },
+  { name: 'Bobby Hill' },
+  { name: 'Luanne Platter' },
+  { name: 'Dale Gribble' },
+  { name: 'Nancy Gribble' },
+  { name: 'Bill Dauterive' },
+  { name: 'Boomhauer' },
+  { name: 'John Redcorn' }
+])
