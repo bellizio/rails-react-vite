@@ -12,6 +12,7 @@ The app uses the [Vite Ruby](https://vite-ruby.netlify.app/), which acts as the 
 4. `brew install postgresql`
 5. `npm install`
 6. `bundle install`
+7. `rails db:seed`
 
 ## Scripts
 
