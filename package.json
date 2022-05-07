@@ -13,7 +13,7 @@
     "vite-plugin-ruby": "^3.0.9"
   },
   "scripts": {
-    "dev": "bin/vite dev",
+    "start": "bin/vite dev",
     "build": "bin/vite build --clear",
     "clean": "bin/vite clobber",
     "format": "prettier --write app/frontend",
