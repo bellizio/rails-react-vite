@@ -13,7 +13,14 @@
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".tsx"]
+      },
+      "alias": {
+        "map": [["~", "./app/frontend"]],
+        "extensions": [".js", ".jsx", ".tsx"]
       }
+    },
+    "react": {
+      "version": "detect"
     }
   }
 }
