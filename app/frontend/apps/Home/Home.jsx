@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, Footer, Main } from '~/components';
+import Hank from '~/images/hank.jpg';
 import '../styles.scss';
 
 const HomeApp = () => {
@@ -16,7 +17,7 @@ const HomeApp = () => {
       <Header title="Home App" />
       <Main
         greeting="This is a rails rendered route."
-        imgData={{ src: '../images/hank.jpg', alt: 'hank hill' }}
+        imgData={{ src: Hank, alt: 'hank hill' }}
       >
         <h2>Cast Fetched from api/v1/characters</h2>
         <ul>

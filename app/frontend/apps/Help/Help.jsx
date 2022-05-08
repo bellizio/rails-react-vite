@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Header, Footer, Main } from '~/components';
-import { AccountSettingsPage } from '~/pages';
+import { AccountSettings } from './AccountSettings';
+import BoomHauer from '~/images/boomhauer.jpg';
 import '../styles.scss';
 
 const HelpApp = () => {
@@ -16,7 +17,7 @@ const HelpApp = () => {
               <Main
                 greeting="This is a rails rendered route."
                 imgData={{
-                  src: '../images/boomhauer.jpg',
+                  src: BoomHauer,
                   alt: 'boomhauer grinning',
                 }}
               >
@@ -25,10 +26,7 @@ const HelpApp = () => {
             </>
           }
         ></Route>
-        <Route
-          path="/account-settings"
-          element={<AccountSettingsPage />}
-        ></Route>
+        <Route path="/account-settings" element={<AccountSettings />}></Route>
       </Routes>
       <Footer />
     </>

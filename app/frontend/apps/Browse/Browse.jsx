@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, Footer, Main } from '~/components';
+import Bobby from '~/images/bobby.gif';
 import '../styles.scss';
 
 const BrowseApp = () => {
@@ -9,7 +10,7 @@ const BrowseApp = () => {
       <Main
         greeting="This is a rails rendered route."
         imgData={{
-          src: '../images/bobby.gif',
+          src: Bobby,
           alt: 'bobby hill dancing in pajamas',
         }}
       />

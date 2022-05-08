@@ -1,2 +1,1 @@
-export { default as AccountSettingsPage } from './AccountSettingsPage';
-export { default as NotFoundPage } from './AccountSettingsPage';
+export { NotFound } from './NotFound';
