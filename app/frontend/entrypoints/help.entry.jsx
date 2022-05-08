@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import { HelpApp } from '../apps';
+import { HelpApp } from '~/apps';
 
 const container = document.getElementById('help-page');
 const root = createRoot(container);

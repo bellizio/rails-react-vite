@@ -1,6 +1,6 @@
 import React from 'react';
-import { Header, Footer, Main } from '../components';
-import './styles.scss';
+import { Header, Footer, Main } from '~/components';
+import '../styles.scss';
 
 const BrowseApp = () => {
   return (

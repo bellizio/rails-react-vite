@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { Header, Footer, Main } from '../components';
-import { AccountSettingsPage } from '../pages';
-import './styles.scss';
+import { Header, Footer, Main } from '~/components';
+import { AccountSettingsPage } from '~/pages';
+import '../styles.scss';
 
 const HelpApp = () => {
   return (

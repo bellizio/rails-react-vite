@@ -1,5 +1,5 @@
 import React from 'react';
-import { Main } from '../components';
+import { Main } from '~/components';
 
 function AccountSettingsPage() {
   return (

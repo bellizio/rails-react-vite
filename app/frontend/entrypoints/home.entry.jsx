@@ -1,12 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowseApp } from '../apps';
+import { HomeApp } from '~/apps';
 
-const container = document.getElementById('browse-page');
+const container = document.getElementById('home-page');
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowseApp />
+    <HomeApp />
   </React.StrictMode>
 );
