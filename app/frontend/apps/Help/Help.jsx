@@ -1,8 +1,8 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import { Header, Footer, Main } from '~/components';
-import { AccountSettings } from './AccountSettings';
+import { Link, Route, Routes } from 'react-router-dom';
+import { Footer, Header, Main } from '~/components';
 import BoomHauer from '~/images/boomhauer.jpg';
+import { AccountSettings } from './AccountSettings';
 import '../styles.scss';
 
 const HelpApp = () => {

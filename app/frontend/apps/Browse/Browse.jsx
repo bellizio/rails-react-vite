@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer, Main } from '~/components';
+import { Footer, Header, Main } from '~/components';
 import Bobby from '~/images/bobby.gif';
 import '../styles.scss';
 
