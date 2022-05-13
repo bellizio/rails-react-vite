@@ -2,11 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { HeaderWrapper, SiteNav } from './styles';
 
-type HeaderProps = {
-  title: string;
-};
-
-const Header = (props: HeaderProps) => {
+const Header = (props) => {
   const { title } = props;
 
   return (
