@@ -26,8 +26,8 @@
     "start": "bin/vite dev",
     "build": "bin/vite build --clear",
     "clean": "bin/vite clobber",
-    "format": "prettier --write app/frontend",
-    "lint": "eslint --fix app/frontend",
+    "format": "prettier --write 'app/frontend/**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint --fix 'app/frontend/**/*.{js,jsx,ts,tsx}'",
     "type-check": "tsc",
     "prepare": "husky install"
   },
