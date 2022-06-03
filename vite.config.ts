@@ -9,4 +9,9 @@ export default defineConfig({
     react(),
     fullReload(['config/routes.rb', 'app/views/**/*']),
   ],
+  css: {
+    modules: {
+      localsConvention: 'camelCase',
+    },
+  },
 });
