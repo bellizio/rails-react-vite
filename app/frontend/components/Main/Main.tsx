@@ -1,7 +1,7 @@
 import React from 'react';
-import { GreetingContainer, GreetingImage, GreetingText } from './styles';
+import styles from './Main.module.scss';
 
-type GreetingProps = {
+type MainProps = {
   greeting: string;
   imgData: {
     src: string;
@@ -10,17 +10,17 @@ type GreetingProps = {
   children: React.ReactNode;
 };
 
-const Greeting = (props: GreetingProps) => {
+const Main = (props: MainProps) => {
   const { greeting, imgData, children } = props;
   const { src, alt } = imgData;
 
   return (
-    <GreetingContainer>
-      <GreetingImage src={src} alt={alt} />
-      <GreetingText>{greeting}</GreetingText>
+    <main className={styles.greetingContainer}>
+      <img className={styles.greetingImage} src={src} alt={alt} />
+      <p className={styles.greetingText}>{greeting}</p>
       {children}
-    </GreetingContainer>
+    </main>
   );
 };
 
-export default Greeting;
+export default Main;
