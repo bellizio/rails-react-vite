@@ -63,7 +63,8 @@
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".jsx", ".tsx"] }
-    ]
+    ],
+    "react/react-in-jsx-scope": "off"
   },
   "overrides": [
     {
