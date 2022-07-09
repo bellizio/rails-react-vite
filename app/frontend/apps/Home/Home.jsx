@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import { Footer } from '~/components/Footer';
 import { Header } from '~/components/Header';
 import { Main } from '~/components/Main';
@@ -6,9 +6,9 @@ import Hank from '~/images/hank.jpg';
 import '../styles.scss';
 
 const HomeApp = () => {
-  const [characters, setCharacters] = React.useState([]);
+  const [characters, setCharacters] = useState([]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetch('/api/v1/characters')
       .then((res) => res.json())
       .then((data) => setCharacters(data));

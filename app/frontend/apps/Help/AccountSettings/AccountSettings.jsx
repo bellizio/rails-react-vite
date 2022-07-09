@@ -1,4 +1,3 @@
-import React from 'react';
 import { Main } from '~/components/Main';
 import Dale from '~/images/dale.jpg';
 
