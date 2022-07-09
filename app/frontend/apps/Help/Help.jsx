@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import { Footer, Header, Main } from '~/components';
+import { Footer } from '~/components/Footer';
+import { Header } from '~/components/Header';
+import { Main } from '~/components/Main';
 import BoomHauer from '~/images/boomhauer.jpg';
 import { AccountSettings } from './AccountSettings';
 import '../styles.scss';
