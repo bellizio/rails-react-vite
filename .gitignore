@@ -37,4 +37,8 @@ node_modules
 # https://vitejs.dev/guide/env-and-mode.html#env-files
 *.local
 
+# System files & folders
 .DS_Store
+
+# Editor files & folders
+*.vscode
